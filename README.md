@@ -1,9 +1,9 @@
 SublimeLinter-contrib-foodcritic
 ================================
 
-[![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-foodcritic.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-foodcritic)
+[![Build Status](https://travis-ci.org/systemexitzero/SublimeLinter-contrib-foodcritic.svg?branch=master)](https://travis-ci.org/systemexitzero/SublimeLinter-contrib-foodcritic)
 
-This linter plugin for [SublimeLinter][docs] provides an interface to [foodcritic](__linter_homepage__). It will be used with files that have the “__syntax__” syntax.
+This linter plugin for [SublimeLinter][docs] provides an interface to [foodcritic](http://foodcritic.io). It will be used with [Chef](http://chef.io) cookbooks and recipe files that have the “ruby” syntax.
 
 ## Installation
 SublimeLinter 3 must be installed in order to use this plugin. If SublimeLinter 3 is not installed, please follow the instructions [here][installation].
