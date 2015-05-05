@@ -24,7 +24,7 @@ class Foodcritic(RubyLinter):
     version_re = r'\b(?P<version>\d+\.\d+\.\d+)'
     version_requirement = '>= 2.0'
     regex = (
-        r'FC(?P<error>\d+): (?P<message>.+): (?P<file>.+):(?P<line>\d+)'
+        r'.+?(?P<error>\d+): (?P<message>.+): (?P<file>.+):(?P<line>\d+)'
     )
     multiline = False
     line_col_base = (1, 1)
@@ -36,4 +36,3 @@ class Foodcritic(RubyLinter):
     inline_settings = None
     inline_overrides = None
     comment_re = r'\s*#'
-
